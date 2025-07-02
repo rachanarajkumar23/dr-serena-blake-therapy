@@ -74,7 +74,7 @@ export default function Hero() {
             className="text-white px-8 py-4 md:px-12 md:py-6 text-lg md:text-xl font-semibold rounded-full hover:opacity-80 transform hover:scale-105 transition-all duration-300 shadow-2xl"
             style={{ backgroundColor: '#708090' }}
           >
-            Let's Start Healing
+            Let us Start Healing
           </button>
         </div>
       </div>

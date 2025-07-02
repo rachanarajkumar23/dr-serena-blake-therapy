@@ -112,7 +112,7 @@ export default function FAQPage() {
             Have More Questions?
           </h2>
           <p className="text-gray-600 mb-6">
-            Don't see your question answered here? Feel free to reach out to us directly.
+            Don not see your question answered here? Feel free to reach out to us directly.
           </p>
           <div className="space-y-2">
             <p className="text-lg">
