@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-
+import Image from 'next/image'
 interface ServiceData {
   id: number
   title: string
@@ -61,20 +61,13 @@ export default function Service() {
               <div key={service.id} className="text-center">
                 {/* Circular Image */}
                 <div className="relative w-48 h-48 mx-auto mb-6">
-                  <div className="w-full h-full rounded-full overflow-hidden shadow-lg bg-gray-200 flex items-center justify-center">
-                    {/* Placeholder - Replace with your image */}
-                    <div className="text-gray-500 text-center">
-                      <div className="text-4xl mb-2">{service.emoji}</div>
-                      <p className="text-sm">Add Image</p>
-                    </div>
-                    {/* Uncomment and use this when you add your image
+                  <div className="w-full h-full rounded-full overflow-hidden shadow-lg bg-gray-200">
                     <Image
-                      src={`/assets/${service.title.toLowerCase().replace(/\s+/g, '-')}.jpg`}
+                      src={`/assets/${service.title.toLowerCase().replace(/\s+/g, '-')}.jpeg`}
                       alt={service.title}
                       fill
-                      className="object-cover"
+                      className="object-cover rounded-full"
                     />
-                    */}
                   </div>
                 </div>
 
